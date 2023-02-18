@@ -2,7 +2,7 @@ pipeline{
 agent any
 stages{
 stage('Clone Repository'){
-PES2UG20CS113 6steps{
+steps{
 git branch:'main', url : 'https://github.com/Raunak8789/PES2UG20CS267_jenkins.git' }
 }
 stage('Build'){
